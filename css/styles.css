@@ -1,0 +1,324 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Frutiger LT Std';
+	font-weight: 100;
+	-webkit-font-smoothing: antialiased;
+	background-color: #2162e36;
+	display: block;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+p {    
+	display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+.titleSection {
+	overflow: hidden;
+	background-color: #262e36;
+	width: 100%;
+	height: 1550px;
+	padding: 0;
+	position: relative;
+}
+
+.titleSectionContainer {
+	max-width: 1200px;
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.title {
+	width: 374px;
+	font-size: 120px;
+	line-height: 0.9px;
+	color: #f7f7f7;
+	margin: 90px 0 0 0;
+	position: absolute;
+}
+
+.titleImg01 {
+	background: url('titleImg01.png') no-repeat;
+	background-size: contain;
+	background-position: center bottom;
+	width: 631px;
+	height: 1084px;
+	position: absolute;
+	bottom: 0;
+	margin: 0 100px 0 0;
+	right: 0;
+}
+
+.titleImg02 {
+  background: url("titleImg02.png") no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  width: 631px;
+  height: 746px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -450px;
+}
+
+.subtitles {
+	height: 172px;
+	font-size: 36px;
+	color: #e9eae9;
+	margin: 350px 0 0 0;
+	position: absolute;
+}
+
+.getTheFreeAppTop {
+	float: right;
+	text-align: center;
+	position: relative;
+	top: 90px;
+	right: 0;
+	padding: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 2px;
+}
+
+.getTheFreeAppIconsSmall {
+	margin: 30px 0 30px 0;
+}
+
+.iosAppIconSmall {
+	width: 175px;
+	height: 50px;
+	background: url('appStore.png') no-repeat;
+	background-size: contain;
+	display: block;
+	cursor: pointer;
+	margin: 0 auto;
+}
+
+.iosAppIconSmall:hover {
+	opacity: 0.5;
+}
+
+.androidAppIconSmall {
+	width: 175px;
+	height: 50px;
+	background: url('gPlay.png') no-repeat;
+	background-size: contain;
+	display: block;
+	margin: 30px auto 0 auto;
+	cursor: pointer;
+}
+
+.androidAppIconSmall:hover {
+	opacity: 0.5;
+}
+
+.getTheFreeAppTopText {
+	margin: 15px 20px 25px 20px;
+	font-size: 23px;
+	color: #f2f2f2;
+}
+
+.sendALinkSmallButton {
+	font-family: 'Frutiger LT Std';
+	width: 257px;
+	height: 52px;
+	border-radius: 2px;
+	background-color: #f2f2f2;
+	font-size: 17px;
+	letter-spacing: 1px;
+	color: #262e36;
+	text-transform: uppercase;
+	border: none;
+	cursor: pointer;
+	display: none;
+}
+
+.sendALinkSmallButton:hover {
+	opacity: 0.5;
+}
+
+.titleText {
+	font-size: 80px;
+	line-height: 1;
+}
+
+.bodyText {
+	font-family: 'Frutiger Std LT';
+	letter-spacing: -0.2px;
+}
+
+.noPaperSection {
+	overflow: hidden;
+	background-color: #1f262c;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: #fefefe;
+	height: 900px;
+}
+
+.noPaperSectionContainer {
+	max-width: 1200px;
+	height: 100%;
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+
+#noPaperSectionTitle {
+	opacity: 1;
+	margin-top: 110px;
+	text-align: center; 
+}
+
+.noPaperSectionBody {
+	max-width: 793px;
+  font-size: 26px;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: center;
+  margin: auto;
+  margin-top: 36px;
+  opacity: 0.8;
+}
+
+.keepTrackSection {
+	overflow: hidden;
+	background-color: #23debf;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 1150px;
+}
+
+.keepTrackSectionContainer {
+	max-width: 1200px;
+	height: 100%;
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+
+#keepTrackSectionTitle {
+	opacity: 1;
+	margin-top: 110px;
+	text-align: center; 
+	color: #262e36;
+}
+
+.keepTrackSectionBody {
+	max-width: 793px;
+  font-size: 26px;
+  line-height: 1.5;
+  color: #262e36;
+  text-align: center;
+  margin: auto;
+  margin-top: 34px;
+}
+
+.getPaidSection {
+	overflow: hidden;
+  background-color: #262e36;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 1024px;
+  color: #fefefe;
+}
+
+.getPaidSectionContainer {
+	height: 100%;
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.getPaidSectionBlock {
+	text-align: left;
+  width: 450px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  margin: 110px 0 0 0;
+}
+
+#getPaidSectionTitle {
+	opacity: 1;
+	font-size: 80px;
+	color: #fff;
+}
+
+.getPaidSectionBody {
+	max-width: 793px;
+  opacity: 0.8;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #ffffff;
+  margin-top: 50px;
+}
+
+.footer {
+	overflow: hidden;
+  background-color: #f56d31;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 824px;
+  position: relative;
+}
+
+.footerContainer {
+	width: 90%;
+	margin: 0 5%;
+}
+
+#footerTitle {
+	font-size: 100px;
+	color: #fff;
+	text-align: center;
+	width: 90%;
+	margin: 110px auto 0 auto;
+}
+
+.getTheAppLinksLarge {
+  max-width: 795px;
+  margin: 100px auto 0 auto;
+}
+
+.getTheAppIconsLarge {
+	width: 220px;
+  margin: 100px auto 0 auto;
+  text-align: center;
+  display: block;
+}
+
+.iosAppIconLarge {
+  background: url("appStore.png") no-repeat;
+  background-size: contain;
+  width: 220px;
+  height: 80px;
+  display: block;
+}
+
+.androidAppIconLarge {
+ 	background: url("gPlay.png") no-repeat;
+	background-size: contain;
+	width: 220px;
+	height: 80px;
+	display: block;
+	margin-top: 30px;
+}
+
+
+
